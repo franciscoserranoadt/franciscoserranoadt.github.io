@@ -1,8 +1,18 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.franciscoserranoadt.twa",
-        "sha256_cert_fingerprints": ["4F:16:DE:B1:E8:09:6B:14:E1:AC:10:10:40:92:95:CF:22:25:B9:44:2D:15:D3:38:9F:2A:B8:D0:F7:56:64:BC"]
-      }
-    }]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.franciscoserranoadt.twa",
+      "sha256_cert_fingerprints": ["4F:16:DE:B1:E8:09:6B:14:E1:AC:10:10:40:92:95:CF:22:25:B9:44:2D:15:D3:38:9F:2A:B8:D0:F7:56:64:BC"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.franciscoserranoadt.mercados",
+      "sha256_cert_fingerprints": ["3D:D4:8B:12:34:82:83:33:2B:4B:A3:19:09:34:02:E1:8D:8A:81:FD:09:F8:3D:44:14:D3:81:10:E5:A2:7C:01"]
+    }
+  }
+]
